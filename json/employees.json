@@ -1,0 +1,486 @@
+[
+    {
+      "mntEmpId": "MjVzVHIxbkc=",
+      "empNameEn": "EMP25 (EN)",
+      "empNameAr": "EMP25 (AR)",
+      "empGprNo": "1234",
+      "isActive": "Y",
+      "empCode": "admin1",
+      "empTelNo": null,
+      "empEmail": "PrivilegeManager.Support@emaratech.ae",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "admin1",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 25,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 26,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_MANAGER",
+            "roleDescEn": "Trading System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 27,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_OFFICER",
+            "roleDescEn": "Trading System Officer",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 28,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "SALES_MANAGER",
+            "roleDescEn": "Sales Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "mntEmpId": "MjZzVHIxbkc=",
+      "empNameEn": "EMP26 (EN)",
+      "empNameAr": "EMP26 (AR)",
+      "empGprNo": "1234",
+      "isActive": "Y",
+      "empCode": "admin2",
+      "empTelNo": null,
+      "empEmail": "PrivilegeManager.Support@emaratech.ae",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "admin2",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 25,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 26,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_MANAGER",
+            "roleDescEn": "Trading System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 27,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_OFFICER",
+            "roleDescEn": "Trading System Officer",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 28,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "SALES_MANAGER",
+            "roleDescEn": "Sales Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "mntEmpId": "MjdzVHIxbkc=",
+      "empNameEn": "EMP27 (EN)",
+      "empNameAr": "EMP27 (AR)",
+      "empGprNo": "1234",
+      "isActive": "Y",
+      "empCode": "admin3",
+      "empTelNo": null,
+      "empEmail": "PrivilegeManager.Support@emaratech.ae",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "admin3",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 25,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 26,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_MANAGER",
+            "roleDescEn": "Trading System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 27,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_OFFICER",
+            "roleDescEn": "Trading System Officer",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 28,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "SALES_MANAGER",
+            "roleDescEn": "Sales Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "mntEmpId": "NTFzVHIxbkc=",
+      "empNameEn": "arun",
+      "empNameAr": "لحضور",
+      "empGprNo": "25",
+      "isActive": "Y",
+      "empCode": "arunm",
+      "empTelNo": "0557807815",
+      "empEmail": "ntarunmenon@gmail.com",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "arunm",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 25,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 26,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_MANAGER",
+            "roleDescEn": "Trading System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 27,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_OFFICER",
+            "roleDescEn": "Trading System Officer",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 28,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "SALES_MANAGER",
+            "roleDescEn": "Sales Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "mntEmpId": "NTJzVHIxbkc=",
+      "empNameEn": "arun",
+      "empNameAr": "لحضور",
+      "empGprNo": "25",
+      "isActive": "Y",
+      "empCode": "arunm",
+      "empTelNo": "0557807815",
+      "empEmail": "ntarunmenon@gmail.com",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "arunm",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 25,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 26,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_MANAGER",
+            "roleDescEn": "Trading System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 27,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_OFFICER",
+            "roleDescEn": "Trading System Officer",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 28,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "SALES_MANAGER",
+            "roleDescEn": "Sales Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "mntEmpId": "NTNzVHIxbkc=",
+      "empNameEn": "arun",
+      "empNameAr": "لحضور",
+      "empGprNo": "25",
+      "isActive": "Y",
+      "empCode": "arunm",
+      "empTelNo": "0557807815",
+      "empEmail": "ntarunmenon@gmail.com",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "arunm",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 25,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 26,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_MANAGER",
+            "roleDescEn": "Trading System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 27,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "TRADING_SYSTEM_OFFICER",
+            "roleDescEn": "Trading System Officer",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        },
+        {
+          "empRoleId": 28,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "SALES_MANAGER",
+            "roleDescEn": "Sales Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "mntEmpId": "NTRzVHIxbkc=",
+      "empNameEn": "nitya",
+      "empNameAr": "لحضور",
+      "empGprNo": "25",
+      "isActive": "Y",
+      "empCode": "nitya",
+      "empTelNo": "0557807815",
+      "empEmail": "ntarunmenon@gmail.com",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "nitya",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 9,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    },
+    {
+      "mntEmpId": "MjhzVHIxbkc=",
+      "empNameEn": "EMP28 (EN)",
+      "empNameAr": "EMP28 (AR)",
+      "empGprNo": "1234",
+      "isActive": "Y",
+      "empCode": "admin4",
+      "empTelNo": null,
+      "empEmail": "PrivilegeManager.Support@emaratech.ae",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01",
+      "empRemark": null,
+      "empLocationId": {
+        "locationId": 1,
+        "locNameEn": "HQ Legal Advice (EN)",
+        "locNameAr": "HQ Legal Advice (AR)",
+        "isEnabled": "Y",
+        "createDate": "2019-01-01",
+        "modifiedDate": "2019-01-01"
+      },
+      "enabled": true,
+      "username": "admin4",
+      "accountNonLocked": true,
+      "accountNonExpired": true,
+      "credentialsNonExpired": true,
+      "srvEmpRoleList": [
+        {
+          "empRoleId": 28,
+          "roleId": {
+            "srvRoleId": 5,
+            "roleName": "ROLE_SPRIVILEGE_SYS",
+            "roleDescEn": "Privilege System Manager",
+            "roleDescAr": null,
+            "isEnabled": "Y"
+          }
+        }
+      ]
+    }
+  ]

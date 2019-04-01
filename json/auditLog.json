@@ -1,0 +1,1150 @@
+[
+    {
+        "empLogId": 26,
+        "logAction": "Create Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTNzVHIxbkc=",
+            "empNameEn": "arun",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "arunm",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "arunm",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 3,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 27,
+        "logAction": "Create Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+             "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+             "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 45,
+        "logAction": "Update Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+             "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 46,
+        "logAction": "Update Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+             "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+             "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 65,
+        "logAction": "Update Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 66,
+        "logAction": "Update Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 67,
+        "logAction": "Disable Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 68,
+        "logAction": "Disable Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 69,
+        "logAction": "Reset Employee Password",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 70,
+        "logAction": "Reset Employee Password",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 71,
+        "logAction": "Enable Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 72,
+        "logAction": "Enable Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 73,
+        "logAction": "Disable Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "empLogId": 74,
+        "logAction": "Update Employee",
+        "remarks": null,
+        "loggedDateTime": "2019-01-01",
+        "empId": {
+            "mntEmpId": "MjVzVHIxbkc=",
+            "empNameEn": "EMP25 (EN)",
+            "empNameAr": "EMP25 (AR)",
+            "empGprNo": "1234",
+            "isActive": "Y",
+            "empCode": "admin1",
+            "empTelNo": null,
+            "empEmail": "PrivilegeManager.Support@emaratech.ae",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "admin1",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 25,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        },
+        "targetEmpId": {
+            "mntEmpId": "NTRzVHIxbkc=",
+            "empNameEn": "nitya",
+            "empNameAr": "لحضور",
+            "empGprNo": "25",
+            "isActive": "Y",
+            "empCode": "nitya",
+            "empTelNo": "0557807815",
+            "empEmail": "ntarunmenon@gmail.com",
+            "createDate": "2019-01-01",
+            "modifiedDate": "2019-01-01",
+            "empRemark": null,
+            "empLocationId": {
+                "locationId": 1,
+                "locNameEn": "HQ Legal Advice (EN)",
+                "locNameAr": "HQ Legal Advice (AR)",
+                "isEnabled": "Y",
+                "createDate": "2019-01-01",
+                "modifiedDate": "2019-01-01"
+            },
+            "enabled": true,
+            "username": "nitya",
+            "accountNonLocked": true,
+            "accountNonExpired": true,
+            "credentialsNonExpired": true,
+            "srvEmpRoleList": [
+                {
+                    "empRoleId": 9,
+                    "roleId": {
+                        "srvRoleId": 5,
+                        "roleName": "ROLE_SPRIVILEGE_SYS",
+                        "roleDescEn": "Privilege System Manager",
+                        "roleDescAr": null,
+                        "isEnabled": "Y"
+                    }
+                }
+            ]
+        }
+    }
+]
