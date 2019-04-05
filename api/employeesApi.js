@@ -3,7 +3,7 @@ var express = require('express')
 const uuidv1 = require('uuid/v1');
 const moment = require('moment')
 var router = express.Router()
-const { getEmployees,updateEmployee } = require("./../file/employeesFile");
+const { getEmployees,updateEmployee, deleteEmployee } = require("./../file/employeesFile");
 
 router.get('/', (req, res) => {
      getEmployees()
@@ -17,6 +17,12 @@ router.post('/', (req, res) => {
     newEmployee.modifiedDate = moment().format('YYYY-MM-DD')
     updateEmployee(newEmployee)
    .then(res.send(newEmployee.mntEmpId))
+})
+
+router.delete('/', (req, res) => {
+    var mntEmpId = req.query.q;
+    deleteEmployee(mntEmpId)
+   .then(res.send(mntEmpId))
 })
 
 module.exports = router
