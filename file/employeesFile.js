@@ -12,7 +12,12 @@ async function updateEmployee(employee) {
     getEmployees()
         .then (employees => {
             employeesJSON = JSON.parse(employees)
-            employeesJSON.push(employee)
+            var index = _.findIndex(employeesJSON, {'mntEmpId': employee.mntEmpId})
+            if (index === -1) {
+                employeesJSON.push(employee)
+            } else {
+                employeesJSON.splice(index,1,employee)
+            }
             return writeFile('json/employees.json',JSON.stringify(employeesJSON,null,2))
         })    
 }

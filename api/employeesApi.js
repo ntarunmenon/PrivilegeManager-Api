@@ -19,6 +19,13 @@ router.post('/', (req, res) => {
    .then(res.send(newEmployee.mntEmpId))
 })
 
+router.put('/', (req, res) => {
+    var newEmployee = req.body;
+    newEmployee.modifiedDate = moment().format('YYYY-MM-DD')
+    updateEmployee(newEmployee)
+   .then(res.send(newEmployee.mntEmpId))
+})
+
 router.delete('/', (req, res) => {
     var mntEmpId = req.query.q;
     deleteEmployee(mntEmpId)
