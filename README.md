@@ -17,3 +17,7 @@ Desired API's :-
 
 /login
     -- POST - user name & password and working with JWT.
+
+
+** Create an Employee Class with fields mapped to JSON.
+
