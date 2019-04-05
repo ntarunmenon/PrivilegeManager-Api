@@ -1,6 +1,6 @@
 const express = require('express')
-var auditLog = require('./auditLog')
-var employees = require('./employees')
+var auditLog = require('./api/auditLogApi')
+var employees = require('./api/employeesApi')
 
 const app = express()
 const port = 3000
