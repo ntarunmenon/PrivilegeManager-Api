@@ -1,0 +1,18 @@
+[
+  {
+    "locationId": 1,
+    "locNameEn": "HQ Legal Advice (EN)",
+    "locNameAr": "HQ Legal Advice (AR)",
+    "isEnabled": "Y",
+    "createDate": "2019-01-01",
+    "modifiedDate": "2019-01-01"
+  },
+  {
+    "locNameEn": "New Bur Dubai",
+    "locNameAr": "New Bur Dubai (AR)",
+    "isEnabled": "Y",
+    "locationId": "59f4b130-5968-11e9-9dcf-67f6425688c3",
+    "createDate": "2019-04-08",
+    "modifiedDate": "2019-04-08"
+  }
+]
