@@ -31,6 +31,16 @@ async function deleteEmployee(mntEmpId) {
         })    
 }
 
+async function verifyUserNamePassword(userName,password) {
+    return getEmployees()
+        .then (employees => {
+           return JSON.parse(employees).find((employee) => employee.empCode === userName 
+            && employee.password === password)
+        })    
+}
+
+
 exports.getEmployees = getEmployees;
 exports.updateEmployee = updateEmployee;
 exports.deleteEmployee = deleteEmployee
+exports.verifyUserNamePassword = verifyUserNamePassword
