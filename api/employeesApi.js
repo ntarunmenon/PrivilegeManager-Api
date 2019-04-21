@@ -14,9 +14,11 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     var newEmployee = req.body;
-    newEmployee.mntEmpId = uuidv1()
-    newEmployee.isActive = "Y"
-    newEmployee.password = "pass1234"
+    if (!'mntEmpId' in req.body) {
+        newEmployee.mntEmpId = uuidv1()
+        newEmployee.isActive = "Y"
+        newEmployee.password = "pass1234"
+    }
     newEmployee.enabled = true
     newEmployee.accountNonLocked = true
     newEmployee.accountNonExpired = true
@@ -25,23 +27,16 @@ router.post('/', (req, res) => {
     newEmployee.modifiedDate = moment().format('YYYY-MM-DD')
     newEmployee.srvEmpRoleList = []
     var index = 0;
-    for (var employeePrivelege of newEmployee.employeePriveleges) {
+    for (var role of newEmployee.roles) {
         newEmployee.srvEmpRoleList[index] = {}
-        newEmployee.srvEmpRoleList[index].roleId = _.cloneDeep(employeePrivelege)
+        newEmployee.srvEmpRoleList[index].roleId = _.cloneDeep(role)
         newEmployee.srvEmpRoleList[index].empRoleId = uuidv1()
         index++
     }
-    delete newEmployee.employeePriveleges
+    delete newEmployee.role
     getLocations().then(locations => {
         newEmployee.empLocationId = (JSON.parse(locations))[0]
     })
-    updateEmployee(newEmployee)
-   .then(res.send(newEmployee.mntEmpId))
-})
-
-router.put('/', (req, res) => {
-    var newEmployee = req.body;
-    newEmployee.modifiedDate = moment().format('YYYY-MM-DD')
     updateEmployee(newEmployee)
    .then(res.send(newEmployee.mntEmpId))
 })
