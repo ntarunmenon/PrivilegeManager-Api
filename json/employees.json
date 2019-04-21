@@ -551,5 +551,115 @@
     "mntEmpId": "25d49af0-57dd-11e9-bbf7-3f5a6a0cc7f0",
     "createDate": "2019-04-06",
     "modifiedDate": "2019-04-06"
+  },
+  {
+    "empNameEn": "testingagain",
+    "empNameAr": "testinggain",
+    "empGprNo": "789765",
+    "empCode": "test453",
+    "isActive": "Y",
+    "empTelNo": "8909876",
+    "empEmail": "test@gmail.com",
+    "mntEmpId": "8bcd2fc0-6467-11e9-b7f8-43deba61e280",
+    "password": "pass1234",
+    "enabled": true,
+    "accountNonLocked": true,
+    "accountNonExpired": true,
+    "credentialsNonExpired": true,
+    "createDate": "2019-04-22",
+    "modifiedDate": "2019-04-22",
+    "srvEmpRoleList": [
+      {
+        "roleId": {
+          "srvRoleId": 1,
+          "roleName": "ROLE_SPRIVILEGE_SYS"
+        },
+        "empRoleId": "8bcd7de0-6467-11e9-b7f8-43deba61e280"
+      },
+      {
+        "roleId": {
+          "srvRoleId": 2,
+          "roleName": "TRADING_SYSTEM_MANAGER\""
+        },
+        "empRoleId": "8bcd7de1-6467-11e9-b7f8-43deba61e280"
+      },
+      {
+        "roleId": {
+          "srvRoleId": 3,
+          "roleName": "TRADING_SYSTEM_OFFICER"
+        },
+        "empRoleId": "8bcda4f0-6467-11e9-b7f8-43deba61e280"
+      },
+      {
+        "roleId": {
+          "srvRoleId": 4,
+          "roleName": "SALES_MANAGER"
+        },
+        "empRoleId": "8bcda4f1-6467-11e9-b7f8-43deba61e280"
+      }
+    ],
+    "empLocationId": {
+      "locationId": 1,
+      "locNameEn": "HQ Legal Advice (EN)",
+      "locNameAr": "HQ Legal Advice (AR)",
+      "isEnabled": "Y",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01"
+    }
+  },
+  {
+    "empNameEn": "wenger",
+    "empNameAr": "wengerball",
+    "empGprNo": "909876",
+    "empCode": "wenger12",
+    "isActive": "Y",
+    "empTelNo": "909890",
+    "empEmail": "wenger@test.com",
+    "mntEmpId": "f2f6a410-6467-11e9-b17b-098396562908",
+    "password": "pass1234",
+    "enabled": true,
+    "accountNonLocked": true,
+    "accountNonExpired": true,
+    "credentialsNonExpired": true,
+    "createDate": "2019-04-22",
+    "modifiedDate": "2019-04-22",
+    "srvEmpRoleList": [
+      {
+        "roleId": {
+          "srvRoleId": 1,
+          "roleName": "ROLE_SPRIVILEGE_SYS"
+        },
+        "empRoleId": "f2f74050-6467-11e9-b17b-098396562908"
+      },
+      {
+        "roleId": {
+          "srvRoleId": 2,
+          "roleName": "TRADING_SYSTEM_MANAGER\""
+        },
+        "empRoleId": "f2f74051-6467-11e9-b17b-098396562908"
+      },
+      {
+        "roleId": {
+          "srvRoleId": 3,
+          "roleName": "TRADING_SYSTEM_OFFICER"
+        },
+        "empRoleId": "f2f74052-6467-11e9-b17b-098396562908"
+      },
+      {
+        "roleId": {
+          "srvRoleId": 4,
+          "roleName": "SALES_MANAGER"
+        },
+        "empRoleId": "f2f74053-6467-11e9-b17b-098396562908"
+      }
+    ],
+    "empLocationId": {
+      "locationId": 1,
+      "locNameEn": "HQ Legal Advice (EN)",
+      "locNameAr": "HQ Legal Advice (AR)",
+      "isEnabled": "Y",
+      "createDate": "2019-01-01",
+      "modifiedDate": "2019-01-01"
+    }
   }
 ]

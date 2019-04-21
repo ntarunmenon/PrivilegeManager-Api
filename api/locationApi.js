@@ -12,15 +12,10 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     var newLocation = req.body;
-    newLocation.locationId = uuidv1()
-    newLocation.createDate = moment().format('YYYY-MM-DD')
-    newLocation.modifiedDate = moment().format('YYYY-MM-DD')
-    updateLocation(newLocation)
-   .then(res.send(newLocation.locationId))
-})
-
-router.put('/', (req, res) => {
-    var newLocation = req.body;
+    if(!'locationId' in newLocation) {
+        newLocation.locationId = uuidv1()
+        newLocation.createDate = moment().format('YYYY-MM-DD')
+    }
     newLocation.modifiedDate = moment().format('YYYY-MM-DD')
     updateLocation(newLocation)
    .then(res.send(newLocation.locationId))

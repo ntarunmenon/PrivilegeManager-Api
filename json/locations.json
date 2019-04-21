@@ -14,5 +14,21 @@
     "locationId": "59f4b130-5968-11e9-9dcf-67f6425688c3",
     "createDate": "2019-04-08",
     "modifiedDate": "2019-04-08"
+  },
+  {
+    "locationId": "f9a93370-6469-11e9-b17b-098396562908",
+    "locNameEn": "Brisbane",
+    "locNameAr": "Brisbane",
+    "isEnabled": "Y",
+    "createDate": "2019-04-22",
+    "modifiedDate": "2019-04-22"
+  },
+  {
+    "locationId": "4491eb50-646c-11e9-b17b-098396562908",
+    "locNameEn": "Perth",
+    "locNameAr": "Perth",
+    "isEnabled": "Y",
+    "createDate": "2019-04-22",
+    "modifiedDate": "2019-04-22"
   }
 ]

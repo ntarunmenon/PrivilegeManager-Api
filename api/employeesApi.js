@@ -5,6 +5,7 @@ const moment = require('moment')
 var router = express.Router()
 const { getEmployees,updateEmployee, deleteEmployee } = require("./../file/employeesFile");
 const { getLocations } = require("./../file/locationFile");
+const _ = require('lodash');
 
 router.get('/', (req, res) => {
      getEmployees()
@@ -23,11 +24,17 @@ router.post('/', (req, res) => {
     newEmployee.createDate = moment().format('YYYY-MM-DD')
     newEmployee.modifiedDate = moment().format('YYYY-MM-DD')
     newEmployee.srvEmpRoleList = []
-    for (employeePrivelege of newEmployee.employeePriveleges) {
-        newEmployee.srvEmpRoleList.push(_.cloneDeep(employeePrivelege))
-        newEmployee.srvEmpRoleList.empRoleId = uuidv1()
+    var index = 0;
+    for (var employeePrivelege of newEmployee.employeePriveleges) {
+        newEmployee.srvEmpRoleList[index] = {}
+        newEmployee.srvEmpRoleList[index].roleId = _.cloneDeep(employeePrivelege)
+        newEmployee.srvEmpRoleList[index].empRoleId = uuidv1()
+        index++
     }
-    newEmployee.empLocationId = getLocations().then(locations => {return locations[0]})
+    delete newEmployee.employeePriveleges
+    getLocations().then(locations => {
+        newEmployee.empLocationId = (JSON.parse(locations))[0]
+    })
     updateEmployee(newEmployee)
    .then(res.send(newEmployee.mntEmpId))
 })
