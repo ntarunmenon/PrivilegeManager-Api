@@ -30,5 +30,12 @@
     "isEnabled": "Y",
     "createDate": "2019-04-22",
     "modifiedDate": "2019-04-22"
+  },
+  {
+    "locationId": "",
+    "locNameEn": "Kelvin Grove",
+    "locNameAr": "Kelvin Grove Al",
+    "isEnabled": "Y",
+    "modifiedDate": "2019-04-23"
   }
 ]

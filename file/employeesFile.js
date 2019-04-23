@@ -5,27 +5,26 @@ const writeFile = util.promisify(fs.writeFile);
 var _ = require('lodash');
 
 async function getEmployees() {
-    return await readFile('json/employees.json');
+    return await readFile('json/employees.json')
+    .then(employees => JSON.parse(employees))
 }
 
 async function updateEmployee(employee) {
     getEmployees()
         .then (employees => {
-            employeesJSON = JSON.parse(employees)
-            var index = _.findIndex(employeesJSON, {'mntEmpId': employee.mntEmpId})
+            var index = _.findIndex(employees, {'mntEmpId': employee.mntEmpId})
             if (index === -1) {
-                employeesJSON.push(employee)
+                employees.push(employee)
             } else {
-                employeesJSON.splice(index,1,employee)
+                employees.splice(index,1,employee)
             }
-            return writeFile('json/employees.json',JSON.stringify(employeesJSON,null,2))
+            return writeFile('json/employees.json',JSON.stringify(employees,null,2))
         })    
 }
 
 async function deleteEmployee(mntEmpId) {
     getEmployees()
-        .then (employees => {
-            employeesJSON = JSON.parse(employees)
+        .then (employeesJSON => {
             _.remove(employeesJSON, (employee) => employee.mntEmpId === mntEmpId)
             return writeFile('json/employees.json',JSON.stringify(employeesJSON,null,2))
         })    
@@ -34,7 +33,7 @@ async function deleteEmployee(mntEmpId) {
 async function verifyUserNamePassword(userName,password) {
     return getEmployees()
         .then (employees => {
-           return JSON.parse(employees).find((employee) => employee.empCode === userName 
+           return employees.find((employee) => employee.empCode === userName 
             && employee.password === password)
         })    
 }

@@ -9,7 +9,7 @@ const _ = require('lodash');
 
 router.get('/', (req, res) => {
      getEmployees()
-    .then(employees => res.json(JSON.parse(employees)))
+     .then(employees => res.json(employees))
 })
 
 router.post('/', (req, res) => {
@@ -45,6 +45,21 @@ router.delete('/', (req, res) => {
     var mntEmpId = req.query.q;
     deleteEmployee(mntEmpId)
    .then(res.send(mntEmpId))
+})
+
+router.patch('/', (req, res) => {
+    var patchJson = req.body;
+    if (patchJson.actionType === 'ResetPassword') {
+        getEmployees()
+        .then(employees => {
+            var index = _.findIndex(employees, {'mntEmpId': patchJson.mntEmpId})
+            employees[index].password = "pass1234" 
+            return employees[index]          
+        })
+        .then(employee => updateEmployee(employee))
+        .then(res.send(patchJson.mntEmpId))
+    }
+    
 })
 
 module.exports = router
