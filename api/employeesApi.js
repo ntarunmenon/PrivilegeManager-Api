@@ -13,32 +13,46 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res) => {
-    var newEmployee = req.body;
-    if (!'mntEmpId' in req.body) {
-        newEmployee.mntEmpId = uuidv1()
-        newEmployee.isActive = "Y"
-        newEmployee.password = "pass1234"
-    }
-    newEmployee.enabled = true
-    newEmployee.accountNonLocked = true
-    newEmployee.accountNonExpired = true
-    newEmployee.credentialsNonExpired = true
-    newEmployee.createDate = moment().format('YYYY-MM-DD')
-    newEmployee.modifiedDate = moment().format('YYYY-MM-DD')
-    newEmployee.srvEmpRoleList = []
-    var index = 0;
-    for (var role of newEmployee.roles) {
-        newEmployee.srvEmpRoleList[index] = {}
-        newEmployee.srvEmpRoleList[index].roleId = _.cloneDeep(role)
-        newEmployee.srvEmpRoleList[index].empRoleId = uuidv1()
-        index++
-    }
-    delete newEmployee.role
-    getLocations().then(locations => {
-        newEmployee.empLocationId = (JSON.parse(locations))[0]
+    getEmployees()
+    .then(employees => { 
+        var index = _.findIndex(employees, {'mntEmpId': req.body.mntEmpId})
+        var employeetoUpdate
+        if(index != -1) {
+            employeetoUpdate = employees.slice(index,index + 1)[0]
+        } else {
+            employeetoUpdate = req.body
+            employeetoUpdate.mntEmpId = uuidv1()
+            employeetoUpdate.isActive = "Y"
+            employeetoUpdate.password = "pass1234"
+            employeetoUpdate.accountNonLocked = true
+            employeetoUpdate.accountNonExpired = true
+            employeetoUpdate.credentialsNonExpired = true
+            employeetoUpdate.createDate = moment().format('YYYY-MM-DD')
+        }
+        if (!'enabled' in req.body){
+            employeetoUpdate.enabled = true
+        } else {
+            employeetoUpdate.enabled = req.body.enabled
+        }
+        employeetoUpdate.modifiedDate = moment().format('YYYY-MM-DD')
+        employeetoUpdate.srvEmpRoleList = []
+        var index = 0;
+        for (var role of req.body.roles) {
+            employeetoUpdate.srvEmpRoleList[index] = {}
+            employeetoUpdate.srvEmpRoleList[index].roleId = _.cloneDeep(role)
+            employeetoUpdate.srvEmpRoleList[index].empRoleId = uuidv1()
+            index++
+        }
+        delete employeetoUpdate.role
+        return getLocations().then(locations => {
+            employeetoUpdate.empLocationId = (JSON.parse(locations))[0]
+            return employeetoUpdate
+        })
     })
-    updateEmployee(newEmployee)
-   .then(res.send(newEmployee.mntEmpId))
+       .then(employeetoUpdate => updateEmployee(employeetoUpdate))
+       .then(employeetoUpdate => res.send(employeetoUpdate.mntEmpId))
+   
+    
 })
 
 router.delete('/', (req, res) => {

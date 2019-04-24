@@ -19,7 +19,9 @@ async function updateEmployee(employee) {
                 employees.splice(index,1,employee)
             }
             return writeFile('json/employees.json',JSON.stringify(employees,null,2))
-        })    
+            .then (() => employee)
+            return employee
+        })   
 }
 
 async function deleteEmployee(mntEmpId) {
@@ -33,8 +35,9 @@ async function deleteEmployee(mntEmpId) {
 async function verifyUserNamePassword(userName,password) {
     return getEmployees()
         .then (employees => {
-           return employees.find((employee) => employee.empCode === userName 
+           const employee = employees.find((employee) => employee.empCode === userName 
             && employee.password === password)
+            return employee
         })    
 }
 
