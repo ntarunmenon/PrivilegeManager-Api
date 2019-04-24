@@ -20,7 +20,7 @@ router.post('/', (req, res) => {
         if(index != -1) {
             employeetoUpdate = employees.slice(index,index + 1)[0]
         } else {
-            employeetoUpdate = req.body
+            employeetoUpdate = {};
             employeetoUpdate.mntEmpId = uuidv1()
             employeetoUpdate.isActive = "Y"
             employeetoUpdate.password = "pass1234"
@@ -28,12 +28,15 @@ router.post('/', (req, res) => {
             employeetoUpdate.accountNonExpired = true
             employeetoUpdate.credentialsNonExpired = true
             employeetoUpdate.createDate = moment().format('YYYY-MM-DD')
-        }
-        if (!'enabled' in req.body){
             employeetoUpdate.enabled = true
-        } else {
-            employeetoUpdate.enabled = req.body.enabled
         }
+        employeetoUpdate.empNameEn = req.body.empNameEn
+        employeetoUpdate.empNameAr = req.body.empNameAr
+        employeetoUpdate.empGprNo = req.body.empGprNo
+        employeetoUpdate.empCode = req.body.empCode
+        employeetoUpdate.empTelNo = req.body.empTelNo
+        employeetoUpdate.empEmail = req.body.empEmail
+        employeetoUpdate.isActive = req.body.isActive
         employeetoUpdate.modifiedDate = moment().format('YYYY-MM-DD')
         employeetoUpdate.srvEmpRoleList = []
         var index = 0;
@@ -50,9 +53,7 @@ router.post('/', (req, res) => {
         })
     })
        .then(employeetoUpdate => updateEmployee(employeetoUpdate))
-       .then(employeetoUpdate => res.send(employeetoUpdate.mntEmpId))
-   
-    
+       .then(employeetoUpdate => res.send(employeetoUpdate.mntEmpId)) 
 })
 
 router.delete('/', (req, res) => {

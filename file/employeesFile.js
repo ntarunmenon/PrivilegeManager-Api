@@ -10,7 +10,7 @@ async function getEmployees() {
 }
 
 async function updateEmployee(employee) {
-    getEmployees()
+   return getEmployees()
         .then (employees => {
             var index = _.findIndex(employees, {'mntEmpId': employee.mntEmpId})
             if (index === -1) {
@@ -20,7 +20,6 @@ async function updateEmployee(employee) {
             }
             return writeFile('json/employees.json',JSON.stringify(employees,null,2))
             .then (() => employee)
-            return employee
         })   
 }
 
