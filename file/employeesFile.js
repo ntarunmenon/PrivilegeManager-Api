@@ -5,39 +5,32 @@ const writeFile = util.promisify(fs.writeFile);
 var _ = require('lodash');
 
 async function getEmployees() {
-    return await readFile('json/employees.json')
-    .then(employees => JSON.parse(employees))
+    return JSON.parse(await readFile('json/employees.json'))
 }
 
 async function updateEmployee(employee) {
-   return getEmployees()
-        .then (employees => {
-            var index = _.findIndex(employees, {'mntEmpId': employee.mntEmpId})
-            if (index === -1) {
-                employees.push(employee)
-            } else {
-                employees.splice(index,1,employee)
-            }
-            return writeFile('json/employees.json',JSON.stringify(employees,null,2))
-            .then (() => employee)
-        })   
-}
+  var employees =  await getEmployees()
+  var index = _.findIndex(employees, {'mntEmpId': employee.mntEmpId})
+  if (index === -1) {
+      employees.push(employee)
+  } else {
+      employees.splice(index,1,employee)
+  }
+  return writeFile('json/employees.json',JSON.stringify(employees,null,2))
+ }
 
 async function deleteEmployee(mntEmpId) {
-    getEmployees()
-        .then (employeesJSON => {
-            _.remove(employeesJSON, (employee) => employee.mntEmpId === mntEmpId)
-            return writeFile('json/employees.json',JSON.stringify(employeesJSON,null,2))
-        })    
+    var employees =  await getEmployees()
+    _.remove(employees, (employee) => employee.mntEmpId === mntEmpId)
+    return writeFile('json/employees.json',JSON.stringify(employeesJSON,null,2)) 
 }
 
 async function verifyUserNamePassword(userName,password) {
-    return getEmployees()
-        .then (employees => {
-           const employee = employees.find((employee) => employee.empCode === userName 
-            && employee.password === password)
-            return employee
-        })    
+    var employees =  await getEmployees()
+    const employee = employees.find((employee) => 
+        employee.empCode === userName && employee.password === password
+    )
+    return employee 
 }
 
 

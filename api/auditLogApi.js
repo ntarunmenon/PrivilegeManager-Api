@@ -7,9 +7,6 @@ var router = express.Router()
 
 
 
-router.get('/', (req, res) => {
-     getAuditLogs()
-    .then(auditLogs => res.send(auditLogs))
-})
+router.get('/', async (req, res) => res.json(await getAuditLogs()))
 
 module.exports = router
