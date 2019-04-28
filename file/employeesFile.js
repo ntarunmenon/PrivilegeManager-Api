@@ -22,7 +22,7 @@ async function updateEmployee(employee) {
 async function deleteEmployee(mntEmpId) {
     var employees =  await getEmployees()
     _.remove(employees, (employee) => employee.mntEmpId === mntEmpId)
-    return writeFile('json/employees.json',JSON.stringify(employeesJSON,null,2)) 
+    return writeFile('json/employees.json',JSON.stringify(employees,null,2)) 
 }
 
 async function verifyUserNamePassword(userName,password) {

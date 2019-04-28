@@ -16,7 +16,7 @@ router.post('/', async (req, res) => {
 
   const jwtBearerToken = jwt.sign({}, 'secret123', {
     algorithm: 'HS256',
-    expiresIn: 300,
+    expiresIn: 60,
     subject: JSON.stringify({
       username: matchedEmployee.empCode,
       roles: roles

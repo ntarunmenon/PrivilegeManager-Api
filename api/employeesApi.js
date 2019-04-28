@@ -6,6 +6,9 @@ var router = express.Router()
 const { getEmployees,updateEmployee, deleteEmployee } = require("./../file/employeesFile");
 const { getLocations } = require("./../file/locationFile");
 const _ = require('lodash');
+const auth = require('../middleware/auth')
+
+router.use(auth)
 
 router.get('/', async (req, res) => res.json(await getEmployees()))
 

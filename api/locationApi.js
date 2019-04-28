@@ -4,6 +4,9 @@ const uuidv1 = require('uuid/v1');
 const moment = require('moment')
 var router = express.Router()
 const { getLocations,updateLocation, deleteLocation } = require("./../file/locationFile");
+const auth = require('../middleware/auth')
+
+router.use(auth)
 
 router.get('/', async (req, res) => {
     res.json(await getLocations())
@@ -22,7 +25,7 @@ router.post('/', async (req, res) => {
 
 router.delete('/', async (req, res) => {
     var locationId = req.query.q;
-    await eleteLocation(locationId)
+    await deleteLocation(locationId)
     res.send(locationId)
 })
 
